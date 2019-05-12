@@ -16,7 +16,8 @@ Reservation ----> ReservationTests (plural)
 
 How many tests? Number of tests >= Number of execution paths
 
-What if a method is complex with many execution paths and edge cases?
+What if a method is complex with many execution
+    paths and edge cases?
 Write a single test class for that method!
 
 Ex: CanBeCanceledBy() ----> Reservation_CanBeCanceledByTests

@@ -1,7 +1,9 @@
 1. Unit tests are first-class citizens
     - they are as important (if not more) than the production code
-    - all the best practices about writing clean, readable and maintainable code apply to tests
-    - tests should have a single responsibility and have less than 10 lines of code (ideally 1)
+    - all the best practices about writing clean,
+        readable and maintainable code apply to tests
+    - tests should have a single responsibility and have less
+        than 10 lines of code (ideally 1)
 
 2. Failing at unit testing
     - messy tests
@@ -16,15 +18,20 @@ Keep tests clean and refactor when necessary!
         - if(...) {}
         - else (...) {}
         - foreach (...) {}
-    - when you write logic in your tests it is possible you might make a mistake
-    - when a test fails you first think there is a problem the production code
+    - when you write logic in your tests it is possible
+        you might make a mistake
+    - when a test fails you first think there is a problem
+        the production code
 
 Only call a method and make an assertion!
 
 4. Isolation
-    - each test should be written and executed as if it's the only test in the world
-    - test methods should not call each other and not assume any state created by another test
+    - each test should be written and executed as if it's
+        the only test in the world
+    - test methods should not call each other and not assume
+        any state created by another test
 
 5. Not too specific/general
-    - if the test is too general it will not give you much confidence that your production code is working
+    - if the test is too general it will not give you
+        much confidence that your production code is working
     - if a test is too specific it can break too easily (brittle tests)

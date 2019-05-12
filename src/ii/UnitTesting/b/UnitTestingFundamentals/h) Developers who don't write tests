@@ -4,12 +4,14 @@ Let us look at two developers:
 
 Developer 1: I write bug-free code!
 
-He thinks he is a super smart developer, he writes bug-free code and doesn't need to write tests.
+He thinks he is a super smart developer, he writes bug-free code
+and doesn't need to write tests.
 
 He thinks writing automated tests is a waste of time because they slow you down.
 
-He argues that they delay your delivery and every time you change your application code
-you have to deal with a bunch of broken tests and all this is costly!
+He argues that they delay your delivery and every time you change
+your application code you have to deal with a bunch of broken tests \
+and all this is costly!
 
 ---------------------------------------------------------------------
 
@@ -18,7 +20,8 @@ Developer 2: You're not a developer if you don't write tests!
 If you go to a job interview at this company they will give you a challenge
 to write unit tests to see if you're good at it.
 
-They have automated tests for everything and they don't have any manual testing at their company!
+They have automated tests for everything and they don't
+have any manual testing at their company!
 
 ---------------------------------------------------------------------
 
@@ -27,10 +30,14 @@ Who is right? Neither of them!
 Ignore these extreme view points and take the middle ground.
 In every application it is absolutely essential to have a level of automated testing.
 
-Writing these tests indeed takes time to write and must be maintained just like the production code.
+Writing these tests indeed takes time to write and must be
+maintained just like the production code.
 
-However if you don't take time to write tests you will spend MORE times fixing the bugs after delivery.
-And after delivery the cost goes up exponentially! Spending money on testing can save money over time.
+However if you don't take time to write tests you will
+spend MORE times fixing the bugs after delivery.
+
+And after delivery the cost goes up exponentially!
+Spending money on testing can save money over time.
 
 Tests are an investment! It pays off latter.
 

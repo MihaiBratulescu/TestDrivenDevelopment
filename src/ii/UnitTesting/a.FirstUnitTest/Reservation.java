@@ -6,12 +6,6 @@ public class Reservation
 
     public boolean canBeCanceledBy(User user)
     {
-        if(user.isAdmin)
-            return  true;
-
-        if(madeBy == user)
-            return  true;
-
-        return  false;
+        return (user.isAdmin || madeBy == user);
     }
 }

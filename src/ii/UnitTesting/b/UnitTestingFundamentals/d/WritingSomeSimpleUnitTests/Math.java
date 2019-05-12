@@ -20,9 +20,7 @@ public class Math
 
         for(var i = 0; result.size() < count; i++)
             if (isOdd(i))
-            {
                 result.add(i);
-            }
 
         return result;
     }

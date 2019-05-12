@@ -8,7 +8,7 @@
     - scenario: 15 inputs with 5 states = 5^15 = 30.517.578.125
     - optimal amount of testing based on risk assessment
 
-3. early testing (carpe diem)
+3. early testing
     - bugs found in development are cheap
     - bugs found during usage can cost hundreds of times more
 
@@ -16,10 +16,13 @@
     - a small number of modules contain most of the defects
 
 5. pesticide paradox
-    - if the same test are repeated over and over again they will no longer find new bugs
-    - test cases must be regularly revised and add new and different test cases to find new bugs
+    - if the same test are repeated over and over again
+        they will no longer find new bugs
+    - test cases must be regularly revised and add new
+        and different test cases to find new bugs
 
 6. testing is context dependent
+    - every application has it's own testing strategies
 
 7. absence of error is a fallacy
     - spending too much time on bugs leaves little time for features

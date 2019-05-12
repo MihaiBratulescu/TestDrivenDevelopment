@@ -38,6 +38,10 @@ Also, we can only pass one argument to the test method each time.
 
 More: https://www.baeldung.com/parameterized-tests-junit-5
 
+Ana are @fructe
+
+@fructe = mere, pere, ananas
+
 -----------------------------------------------------
 
 OK but I need multiple arguments!!!
@@ -50,7 +54,7 @@ void isBlank_ShouldReturnTrueForNullOrBlankStrings(String input, boolean expecte
 
 private static Stream<Arguments> provideStringsForIsBlank() {
     return Stream.of(
-      Arguments.of(null, true),
+      Arguments.of(null, true),//1 test scenario
       Arguments.of("", true),
       Arguments.of("  ", true),
       Arguments.of("not blank", false)

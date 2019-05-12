@@ -11,20 +11,24 @@ public int IHave500LinesOfCode()
 }
 
 Unit testing and clean coding go hand in hand.
-In order to test it the code must be clean and properly structured.
+In order to test it the code must be clean
+and properly structured. Testability!
 
 Clean code is easy to test <=> easy to test code is clean.
 
-Assuming the code is clean you should always test the outcome of a function.
+Assuming the code is clean you should always
+test the outcome of a function.
 
 Types of functions:
     - queries: return some value
-        - test all execution paths and ensure each path returns the right value
+        - test all execution paths and ensure
+            each path returns the right value
     - commands: perform an action, do not return any value
         - test the outcome of this method (change of state)
         - test if it communicated with the external resource
             like DB, web service, API... (spy)
-        - sometimes commands return results (ex: create reservation)
+        - sometimes commands return results
+            (ex: create reservation)
 
 What NOT to test?
 

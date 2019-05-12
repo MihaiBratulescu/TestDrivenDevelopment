@@ -15,7 +15,8 @@ In automated testing we have 3 types of tests:
 Alternative (and poor) definition of an integration test:
     - a test that takes 2 or more units (classes) and test them as a whole.
 An integration tests doesn't mean testing 2 or more classes together!
-This definition leads to fragile tests that are coupled to implementation details.
+This definition leads to fragile tests that are coupled
+to implementation details.
 They won't give us any value and actually slow us down.
 
 3. End-to-end tests

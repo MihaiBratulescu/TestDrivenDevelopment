@@ -12,7 +12,7 @@ public class ErrorLogger
 
     public void log(String error)
     {
-        if(nullOrWhitespace(error))
+        if(nullOrEmpty(error))
             throw new IllegalArgumentException();
 
         lastError = error;
@@ -32,7 +32,7 @@ public class ErrorLogger
         _listeners.remove(l);
     }
 
-    private boolean nullOrWhitespace(String error) {
+    private boolean nullOrEmpty(String error) {
         return error == null || error == "";
     }
 

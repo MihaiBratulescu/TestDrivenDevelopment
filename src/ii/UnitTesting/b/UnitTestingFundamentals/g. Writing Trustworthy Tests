@@ -16,7 +16,8 @@ The test may pass but the production code might still have a bug.
 
 Solution?
 
-Make a little change to break the test(s) on the line that is supposed to make the test pass.
+Make a little change to break the test(s) on the line that is
+supposed to make the test pass.
 Create a bug, return a different value, comment out that line...
 
 If the test(s) still pass it means the test(s) don't test the right thing.
