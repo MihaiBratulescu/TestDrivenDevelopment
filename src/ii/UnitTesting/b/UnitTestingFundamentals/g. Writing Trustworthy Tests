@@ -1,0 +1,24 @@
+What makes a test trustworthy?
+
+If a test passes you know that the production code is... maybe working.
+If the test failed you know that something is wrong with the production code.
+
+How can we write trustworthy tests?
+
+There are 2 ways to write tests
+    1. using Test Driven Development (TDD)
+    2. code-first (writing tests after the production code)
+
+Code first is a little bit risky because you may test the wrong thing.
+The test may pass but the production code might still have a bug.
+
+*DEMO EVERGREEN TEST*
+
+Solution?
+
+Make a little change to break the test(s) on the line that is supposed to make the test pass.
+Create a bug, return a different value, comment out that line...
+
+If the test(s) still pass it means the test(s) don't test the right thing.
+
+Make sure you write trustworthy tests that give you value!

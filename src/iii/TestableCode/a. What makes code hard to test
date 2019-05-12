@@ -1,0 +1,21 @@
+How to write hard to test code?
+
+- mixing new with logic
+- looking for things
+- work in constructor
+- global state (singleton)
+- static methods
+- deep inheritance
+
+The core of the problem is writing testable code!
+
+Just write some code and send it to the test engineers...
+At that point it is already too late! The tester cannot write a good test.
+
+---------------------------------------------------------------------------
+
+How to write testable code?
+
+- good OO design
+- dependency inversion
+- TDD

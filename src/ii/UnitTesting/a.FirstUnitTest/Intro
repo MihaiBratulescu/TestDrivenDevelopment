@@ -1,0 +1,56 @@
+Test name structure:
+
+public void Scenario_Action_ExpectedBehaviour()
+public void Given_When_Then()
+
+-------------------------------------------------
+
+Test body structure:
+
+Arrange     Setup
+Act         Execute
+Assert      Check
+
+-------------------------------------------------
+
+Example (canonical form):
+
+@Test
+public void Given_When_Then()
+{
+    //arrange
+
+    //act
+
+    //assert
+}
+
+-------------------------------------------------
+
+Tests should not have any logic!
+
+if(...) {}
+else (...) {}
+for(...) {}
+
+These make possible mistakes in tests and can make tests fail.
+
+-------------------------------------------------
+
+*CODING DEMO*
+
+-------------------------------------------------
+
+Tests as documentation
+
+The tests act like documentation to the source code.
+When you join a new team and are asked to modify a class.
+
+If the class is properly supported by unit tests
+you can figure out what the responsibility of that class is.
+
+-------------------------------------------------
+
+Refactoring
+
+Once you have tests you can refactor your code with CONFIDENCE.

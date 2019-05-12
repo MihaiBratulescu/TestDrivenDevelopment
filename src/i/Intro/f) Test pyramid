@@ -1,0 +1,21 @@
+         /\
+        /  \         - a few E2E tests for the key functions of the system
+       / E2E\        - test only the happy paths, leave edge cases to unit tests
+      /------\
+     /        \      - test the integration with external dependencies
+    /  integr. \     - provide may advantages of the E2E test without
+   /------------\      the pain of dealing with the UI
+  /              \
+ /      Unit      \  - the bulk of the test
+/------------------\ - easy to write & fast to run
+
+This is just a guideline! The actual ratio you need depends on the application.
+
+Unit tests are good at testing the logic
+of the application (conditional statements and loops).
+Methods with complex logic and calculations should be tested with unit tests.
+
+Summary:
+    - unit tests are favorable.
+    - integration tests cover gaps between unit tests.
+    - use end-to-end tests sparingly.

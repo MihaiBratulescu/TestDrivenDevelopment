@@ -1,0 +1,25 @@
+In automated testing we have 3 types of tests:
+
+1. Unit test
+    - test a unit of the application WITHOUT it's external dependencies
+    (files, databases, web services, etc)
+    - cheap to write, fast to execute
+    - verifies that each building block of the system works as expected
+    - don't give enough confidence
+
+2. Integration tests
+    - test the application WITH it's external dependencies
+    - take longer to execute
+    - give more confidence
+
+Alternative (and poor) definition of an integration test:
+    - a test that takes 2 or more units (classes) and test them as a whole.
+An integration tests doesn't mean testing 2 or more classes together!
+This definition leads to fragile tests that are coupled to implementation details.
+They won't give us any value and actually slow us down.
+
+3. End-to-end tests
+    - drives an application through it's UI
+    - greatest amount of confidence
+    - expensive to automate
+    - they are slow and brittle

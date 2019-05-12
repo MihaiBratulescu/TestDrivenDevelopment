@@ -1,0 +1,63 @@
+Let us look at the 3 tests for the Max method.
+They look almost identical. Only the values used differ!
+
+Example:
+
+-----------------------------------------------------
+
+public class Numbers
+{
+    public static boolean isOdd(int number)
+    {
+        return number % 2 != 0;
+    }
+}
+
+@ParameterizedTest
+@ValueSource(ints = {1, 3, 5, -3, 15, Integer.MAX_VALUE})
+void isOdd_ShouldReturnTrueForOddNumbers(int number)
+{
+    assertTrue(Numbers.isOdd(number));
+}
+
+-----------------------------------------------------
+
+One limitation of value sources is that they only support the following types:
+
+short (with the shorts attribute)
+byte (with the bytes attribute)
+int (with the ints attribute)
+long  (with the longs attribute)
+float (with the floats attribute)
+double (with the doubles attribute)
+char (with the chars attribute)
+java.lang.String (with the strings attribute)
+java.lang.Class (with the classes attribute)
+
+Also, we can only pass one argument to the test method each time.
+
+More: https://www.baeldung.com/parameterized-tests-junit-5
+
+-----------------------------------------------------
+
+OK but I need multiple arguments!!!
+
+@ParameterizedTest
+@MethodSource("provideStringsForIsBlank")
+void isBlank_ShouldReturnTrueForNullOrBlankStrings(String input, boolean expected) {
+    assertEquals(expected, Strings.isBlank(input));
+}
+
+private static Stream<Arguments> provideStringsForIsBlank() {
+    return Stream.of(
+      Arguments.of(null, true),
+      Arguments.of("", true),
+      Arguments.of("  ", true),
+      Arguments.of("not blank", false)
+    );
+}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+@Test
+@ParameterizedTest

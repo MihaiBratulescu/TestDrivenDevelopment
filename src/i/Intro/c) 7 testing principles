@@ -1,0 +1,25 @@
+7 testing principles
+
+1. testing shows presence of defects (not absence of)
+    - test can prove the software wrong not correct
+
+2. exhaustive testing is impossible
+    - scenario: move file to a different folder
+    - scenario: 15 inputs with 5 states = 5^15 = 30.517.578.125
+    - optimal amount of testing based on risk assessment
+
+3. early testing (carpe diem)
+    - bugs found in development are cheap
+    - bugs found during usage can cost hundreds of times more
+
+4. defect clustering
+    - a small number of modules contain most of the defects
+
+5. pesticide paradox
+    - if the same test are repeated over and over again they will no longer find new bugs
+    - test cases must be regularly revised and add new and different test cases to find new bugs
+
+6. testing is context dependent
+
+7. absence of error is a fallacy
+    - spending too much time on bugs leaves little time for features

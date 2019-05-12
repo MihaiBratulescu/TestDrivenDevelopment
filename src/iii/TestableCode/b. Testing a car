@@ -1,0 +1,57 @@
+Let's say we have to test a car.
+
+Step 1:
+
+Build a framework to test the car! A complex robot that operates the car.
+
+THIS IS SCENARIO TESTING. It gives high confidence but is slow!!!
+
+But what about special scenarios? Like driving on ice... Or overheating...
+Edge cases are hard to test in this manner!!!
+
+Scenario tests are slow and flaky! And give false negatives...
+What if a designer moved a knob?
+
+If tests pass: high confidence it works but not sure about edge cases
+If tests fail: might still be ok! hard to reproduce failures -> lot of debugging
+
+---------------------------------------------------------------------------
+
+Step 2:
+
+Try to break down the car into components and test each sub-system
+with external dependencies replaced by simulators.
+
+The radio doesn't work? What part does not work?!
+The engine doesn't start? WHY?!
+
+If tests pass: high confidence sub-systems work
+If tests fail: surely something is broken, easier to reproduce failures -> still debugging
+
+---------------------------------------------------------------------------
+
+Step 3:
+
+Test individual components in isolation.
+
+Can simulate all error conditions!
+Super fast tests & no flakiness!
+
+If tests pass: high confidence components work, not sure interactions are OK
+If tests fail: EASY to reproduce failures -> no need to do debugging
+
+---------------------------------------------------------------------------
+
+Summary:
+
+Scenario (large tests)
+    - test whole app by pretending to be a user
+    - slow/flaky/mostly happy paths
+
+Functional (medium tests)
+    - external dependencies simulated
+    - test class interaction
+
+Unit (small test)
+    - focus on app logic
+    - super fast, no I/O, no debugging

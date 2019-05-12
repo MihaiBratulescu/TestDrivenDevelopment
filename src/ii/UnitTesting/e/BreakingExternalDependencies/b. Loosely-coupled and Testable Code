@@ -1,0 +1,67 @@
+Most legacy applications are built without unit testing in mind.
+
+In order to unit test them we need to refactor them
+towards a testable and loosely coupled design.
+
+In a loosely coupled design we can replace one object with another at runtime.
+
+So when unit testing a class that uses an object that talks to an external resource
+you can replace that object with a fake object witch we call a TEST DOUBLE.
+
+How do we do it? 1, 2, 3!
+
+-----------------------------------------------------------------------------
+
+1. Extract the code that uses the external resource into a separate class.
+
+VideoService ---------> FileReader ---------> File
+
+By doing this we isolate it from the rest of the code.
+
+-----------------------------------------------------------------------------
+
+2. Extract an interface from that class.
+
+(contract)
+IFileReader <--------- FileReader ---------> File
+            <--------- FakeFileReader
+
+-----------------------------------------------------------------------------
+
+3. Modify the class under test to use that interface
+instead of one of it's concrete implementations.
+
+VideoService ---------> IFileReader  <--------- FileReader ---------> File
+                                     <--------- FakeFileReader
+
+Instead of being dependent on a specific implementation it will be dependent
+only on the interface (the contract).
+
+You can pass any object that implements the interface and in this way
+you code becomes loosely coupled and testable.
+
+-----------------------------------------------------------------------------
+
+How it looks like:
+
+public void myMethod()
+{
+    var reader = new FileReader(); <--- new is glue
+    reader.Read();
+    ...
+}
+
+public void myMethod(IFileReader reader)
+{
+    reader.Read();
+    ...
+}
+
+*CODE DEMO*
+
+-----------------------------------------------------------------------------
+
+DEPENDENCY INJECTION
+
+You inject/supply the dependency of a class from the outside and this makes
+your classes loosely-coupled and testable.

@@ -1,0 +1,77 @@
+1. Dependency Injection via Method Parameters
+
+public string readVideoTitle(IFileReader reader)
+{
+    //code here
+}
+
+...
+var service = new VideoService();
+var title   = service.readVideoTitle(new FileReader());
+...
+
+---------------------------------------------------
+
+2. Dependency Injection via Properties
+
+What if we change the signature of the method?
+
+public class VideoService
+{
+     public final IFileReader fileReader;
+
+     public String readVideoTitle()
+     {
+        ...
+        var string = fileReader.readFile();
+        ...
+     }
+}
+
+...
+var service        = new VideoService();
+service.fileReader = new FileReader();
+var title          = service.readVideoTitle();
+...
+
+---------------------------------------------------
+
+3. Dependency Injection via Constructor
+
+Some DI frameworks can't inject dependencies view properties.
+
+public class VideoService
+{
+     private final IFileReader fileReader;
+
+     public VideoService(IFileReader fileReader)
+     {
+        this.fileReader = fileReader;
+     }
+
+     public String readVideoTitle()
+     {
+        ...
+        var string = fileReader.readFile();
+        ...
+     }
+}
+
+...
+var fileReader = new FileReader();
+var service    = new VideoService(fileReader);
+var title      = service.readVideoTitle();
+...
+
+We added a constructor parameter... this breaks the production code!
+Create constructor with default initializer.
+
+public VideoService()
+{
+    this.fileReader = new FileReader();
+}
+
+---------------------------------------------------
+
+Dependency Injection Frameworks
+

@@ -1,0 +1,29 @@
+1. For each project have a unit testing project
+
+TestNinja ----> TestNinja.UnitTests
+          ----> TestNinja.IntegrationTests
+
+Separate unit and integration tests.
+Units tests are fast while integration tests take longer.
+We want to run unit tests frequently while developing and
+integration tests just once before committing the code.
+
+2. A test class for each production class
+
+Reservation ----> ReservationTests (plural)
+
+3. For each method in the class have 1 or more test methods
+
+How many tests? Number of tests >= Number of execution paths
+
+What if a method is complex with many execution paths and edge cases?
+Write a single test class for that method!
+
+Ex: CanBeCanceledBy() ----> Reservation_CanBeCanceledByTests
+
+4. The name of the test method MUST clearly
+specify the business rule being testes
+
+Bad examples : Test1()  SaveCustomerTest()  GetMovieTest()
+
+Use conventions: [MethodName]_[Scenario]_[ExpectedBehaviour]

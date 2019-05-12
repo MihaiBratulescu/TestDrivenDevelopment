@@ -1,0 +1,16 @@
+Test double:
+    - replaces real class
+    - same interface
+    - different behaviour
+
+Mocks:
+    - generated class (by a framework)
+    - doesn't do anything
+        (default behaviour: void does nothing, returns default values)
+    - behaviour verification
+        (remembers what methods were called)
+
+Stubs:
+    - handwritten class
+    - returns redefined responses (hardcoded)
+    - state verification

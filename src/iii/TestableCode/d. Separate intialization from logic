@@ -1,0 +1,21 @@
+Have you ever mixed together object construction & lookup with the logic?
+
+Of course! Why keep them separate (add seams) if you never written tests?
+
+You now have to do some unlearning!
+
+-------------------------------------------------------------------------
+
+The two responsibilities need to be separated!
+
+If you separate the two testing can become trivial (or at least very easy).
+
+-------------------------------------------------------------------------
+
+Again, how to write hard to test code?
+
+You mix object creation with business logic!
+
+This will ensure that a test can never construct an object graph different
+from the production one. Hence nothing can be tested in isolation.
+

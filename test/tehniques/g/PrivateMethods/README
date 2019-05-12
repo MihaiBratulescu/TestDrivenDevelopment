@@ -1,0 +1,34 @@
+How do we test private methods?
+
+WE DON'T! You should NOT test private methods!
+
+Private methods are implementation details. We only test the public APIs!
+
+Ex: DVD-Player
+
+All buttons and I/O if the player are the public API.
+What is on the inside of the player (complex logic board) are the implementation details .
+
+Implementation details can changed from one version to another
+but the components on the outside stay the same.
+
+*STORY OF MY MOUSE*
+
+In OOP we want to design our classes like my mouse.
+
+Have very few public members that represent the public API
+(the public interface) of our classes.
+
+Private and protected members represent the implementation details
+which change frequently as we refactor and restructure our code.
+
+If we write tests against the private members we couple them to the
+implementation details. And when we changed them we break the tests!
+
+----------------------------------------------------------------
+
+But what if you HAVE to test a private member?
+
+If you have to then promote it.
+
+Testing trumps encapsulation. Testing trumps everything!

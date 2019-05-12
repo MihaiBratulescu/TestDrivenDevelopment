@@ -1,0 +1,21 @@
+What is software testing?
+
+A process used to identify the correctness, completeness and quality of software.
+Used to check that a software system is defect free.
+
+Why is testing important?
+
+Software bugs can cost money and lives.
+
+- Airbus 8300 (1994)
+    - 264 dead
+
+- Therach-25 radiation therapy machine (1985)
+    - 3 dead
+    - 3 critically injured
+
+- Satellite launch failure (1999)
+    - 1.2 billion USD
+
+- U.S. Bank accounts (1996)
+    - 823 customers paid 920 million USD (823 * 920 million)

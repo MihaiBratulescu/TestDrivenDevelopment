@@ -1,0 +1,31 @@
+The problem:
+
+We created a fake FileReader and used it to write one unit test
+but we are only testing one execution path.
+
+What if we want to test the other execution paths?
+
+We need to change our fake file reader so that it returns some real data.
+BUT if we modify it then the existing unit test will break!
+
+Solution?
+
+Create another fake file reader that returns different data.
+
+HOWEVER this approach is time consuming! Creating all these fake objects
+by hand takes a lot of time.
+
+--------------------------------------------------------------
+
+For this reason we use mocking/isolation framework.
+
+These framework help us to dynamically create these fake/mock objects
+so that we don't have to hard-code them by hand.
+
+We can create them dynamically as part of our tests.
+
+We can also program them to behave in any way we want:
+    - throw exceptions
+    - return values
+    - raise events
+    - etc

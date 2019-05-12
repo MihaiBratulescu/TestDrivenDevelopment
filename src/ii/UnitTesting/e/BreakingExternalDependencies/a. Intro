@@ -1,0 +1,24 @@
+So far our focus was purely on testing utility classes
+that didn't have any external dependencies (files, databases, web services).
+
+But in the real world our applications almost always use one (or more) of these external resources.
+
+But we can still unit test the logic in our classes while excluding external resources!
+
+-----------------------------------------------------------------
+
+How can we unit test a class that depends on an external resource?
+
+Here is the basic principle:
+
+VideoService ---------> File
+
+In order to unit test the VideoService class we must do some surgery in the code and decouple
+the VideoService from the File class or database or whatever the external dependency is.
+
+This way while unit testing the class you can replace the File class with another class
+that looks (and acts) the same from the outside but doesn't talk to the file system.
+
+In fact it doesn't do anything! It's like a class without implementation.
+
+We call this class a FAKE or TEST DOUBLE.

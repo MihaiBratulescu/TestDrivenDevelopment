@@ -1,0 +1,50 @@
+So far:
+
+Each test method looks like it's the only test in the world.
+Each test uses a new instance of the math class.
+Each test starts with a fresh clean state.
+
+Do not create private fields used by more than one test!!!
+It's possible that one test may leave some state into
+the Math object that may leak into other tests
+
+HOWEVER... at the beginning of each test method we are initializing a math object.
+Seems just a bit redundant but not a big deal since it's just 1 line of code. Right?!
+
+But what if we have multiple lines of code?
+You don't want to repeat all those lines in every test method!
+Why not? What happens when you need to change the arrange part?
+
+YOU WOULD FAIL AT UNIT TESTING!!!
+
+-setUp:
+
+    @BeforeAll
+    static void beforeAll()
+    {
+        System.out.println("Before all test methods");
+    }
+
+    @BeforeEach
+    void beforeEach()
+    {
+        System.out.println("Before each test method");
+    }
+
+//test cases...
+
+-tearDown:
+
+    @AfterEach
+    void afterEach()
+    {
+        System.out.println("After each test method");
+    }
+
+    @AfterAll
+    static void afterAll()
+    {
+        System.out.println("After all test methods");
+    }
+
+*Refactor MathTests*

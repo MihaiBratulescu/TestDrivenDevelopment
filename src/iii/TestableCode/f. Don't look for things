@@ -1,0 +1,64 @@
+How do we test this? What is the problem?
+
+class Document
+{
+    String html;
+
+    public Document(String url)
+    {
+        var client = new HtmlClient();
+        html = client.get(url);
+    }
+}
+
+----------------------------------------------------
+
+What is the problem here?
+
+class Document
+{
+    String html;
+
+    public Document(HtmlClient client, String url)
+    {
+        html = client.get(url);
+    }
+}
+
+Law of Demeter: do not ask for something you need directly
+only to get to what you really want.
+
+Ex: obj1.getSomething
+        .getSomethingElse
+        .getTheOtherThing
+        .getWhatIReallyWant;
+
+----------------------------------------------------
+
+Use factories!
+
+class Document
+{
+    String html;
+
+    public Document(String html)
+    {
+        this.html = html;
+    }
+}
+
+class DocumentFactory
+{
+    HtmlClient client;
+
+    public DocumentFactory(HtmlClient client)
+    {
+        this.client = client;
+    }
+
+    public Document build(String url)
+    {
+        return new Document(client.get(url));
+    }
+}
+
