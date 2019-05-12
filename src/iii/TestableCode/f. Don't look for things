@@ -21,12 +21,12 @@ class Document
 
     public Document(HtmlClient client, String url)
     {
-        html = client.get(url);
+        html = client.get(url); <- doing work in constructor
     }
 }
 
-Law of Demeter: do not ask for something you need directly
-only to get to what you really want.
+Law of Demeter: do not ask for something you need
+directly only to get to what you really want.
 
 Ex: obj1.getSomething
         .getSomethingElse

@@ -13,7 +13,8 @@ Scenario tests are slow and flaky! And give false negatives...
 What if a designer moved a knob?
 
 If tests pass: high confidence it works but not sure about edge cases
-If tests fail: might still be ok! hard to reproduce failures -> lot of debugging
+If tests fail: might still be ok! hard to reproduce failures
+                -> LOT of debugging
 
 ---------------------------------------------------------------------------
 
@@ -26,7 +27,8 @@ The radio doesn't work? What part does not work?!
 The engine doesn't start? WHY?!
 
 If tests pass: high confidence sub-systems work
-If tests fail: surely something is broken, easier to reproduce failures -> still debugging
+If tests fail: surely something is broken, easier to reproduce failures
+    -> still debugging a lot
 
 ---------------------------------------------------------------------------
 

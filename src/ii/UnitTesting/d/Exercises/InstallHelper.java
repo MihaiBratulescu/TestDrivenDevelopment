@@ -1,16 +1,21 @@
 package ii.UnitTesting.d.Exercises;
 
+import java.nio.file.Paths;
+
 public class InstallHelper
 {
     private String setupDestinationFile;
 
-    public boolean DownloadInstaller(String customerName, String installerName)
+    public InstallHelper(String installDirectory)
     {
-        var client = new WebClient();
 
+    }
+
+    public boolean DownloadInstaller(IWebClient client, String customerName, String installerName)
+    {
         try
         {
-            client.downloadFile("http://example.com/" + customerName + "/" +installerName,
+            client.downloadFile("http://example.com/" + customerName + "/" + installerName,
                     setupDestinationFile);
 
             return true;

@@ -6,10 +6,9 @@ import java.nio.file.Paths;
 
 public class VideoService
 {
-    public String readVideoTitle() throws IOException
+    public String readVideoTitle(IFileReader reader) throws IOException
     {
-        var path   = Paths.get("videoData.txt");
-        var string = Files.readAllLines(path);
+        var string = reader.readFile("videoData.txt");
 
         if(string == null || string.isEmpty())
         {

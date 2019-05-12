@@ -10,12 +10,13 @@ How to write hard to test code?
 The core of the problem is writing testable code!
 
 Just write some code and send it to the test engineers...
-At that point it is already too late! The tester cannot write a good test.
+At that point it is already too late!
+The tester cannot write a good test.
 
 ---------------------------------------------------------------------------
 
 How to write testable code?
 
 - good OO design
-- dependency inversion
+- dependency injection
 - TDD

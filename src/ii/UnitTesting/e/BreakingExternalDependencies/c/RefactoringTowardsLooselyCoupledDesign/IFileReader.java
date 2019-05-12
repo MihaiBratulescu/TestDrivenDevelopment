@@ -1,6 +1,9 @@
 package ii.UnitTesting.e.BreakingExternalDependencies.c.RefactoringTowardsLooselyCoupledDesign;
 
+import java.io.IOException;
+import java.util.List;
+
 public interface IFileReader
 {
-    String readFile(String path);
+    List<String> readFile(String path) throws IOException;
 }

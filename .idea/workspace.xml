@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62afa830-d503-403b-b642-394ed9d949c8" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/test/exercises/FizzBuzzTests.java" afterDir="false" />
+    <list default="true" id="62afa830-d503-403b-b642-394ed9d949c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/IWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exercises/DemeritPointsCalculatorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOffline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exercises/InstallHelperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/exercises/StackTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fileReader/FakeEmptyDataFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fileReader/FileReaderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i/Intro/c) 7 testing principles" beforeDir="false" afterPath="$PROJECT_DIR$/src/i/Intro/c) 7 testing principles" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i/Intro/e) Types of tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/i/Intro/e) Types of tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/a) Characteristics of good unit tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/a) Characteristics of good unit tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/b) What to test (and what not to test)" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/b) What to test (and what not to test)" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/c) Naming and organizing tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/c) Naming and organizing tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/e. Setup and teardown" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/e. Setup and teardown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/f. Parameterized tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/f. Parameterized tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/g. Writing Trustworthy Tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/g. Writing Trustworthy Tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/h) Developers who don't write tests" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/h) Developers who don't write tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/ErrorLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/ErrorLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/a/FirstUnitTest/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/a/FirstUnitTest/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/c/CoreUnitTestingTechniques/ErrorLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/c/CoreUnitTestingTechniques/ErrorLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/math/MathTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/math/MathTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reservation/ReservationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reservation/ReservationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/a/Strings/HtmlFormatterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/a/Strings/HtmlFormatterTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/b/ArraysAndCollections/MathTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/b/ArraysAndCollections/MathTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/c/MethodsThatReturnValues/CustomerStoreTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/c/MethodsThatReturnValues/CustomerStoreTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/d/VoidMethods/ErrorLoggerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/d/VoidMethods/ErrorLoggerTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/e/Exceptions/ErrorLoggerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/e/Exceptions/ErrorLoggerTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/math/MathTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/math/MathTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/reservation/ReservationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/reservation/ReservationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/a/Strings/HtmlFormatterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/a/Strings/HtmlFormatterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/b/ArraysAndCollections/MathTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/b/ArraysAndCollections/MathTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/c/MethodsThatReturnValues/CustomerStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/c/MethodsThatReturnValues/CustomerStoreTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/d/VoidMethods/ErrorLoggerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/d/VoidMethods/ErrorLoggerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/e/Exceptions/ErrorLoggerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/e/Exceptions/ErrorLoggerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tehniques/g/PrivateMethods/README" beforeDir="false" afterPath="$PROJECT_DIR$/test/tehniques/g/PrivateMethods/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/InstallHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/InstallHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/WebClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/WebClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,35 +37,64 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="294" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/FizzBuzz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/exercises/FizzBuzzTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.6371398">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/exercises/InstallHelperTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="217">
+                  <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#506#507#0" expanded="true" />
+                    <element signature="e#556#557#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="7" column="27" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="56">
+                  <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,31 +110,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/QueryResult.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/ActionResult.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/Ok.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/NotFound.java" />
-        <option value="$PROJECT_DIR$/test/tehniques/f/TestingEvents/ErrorLogger_ErrorLoggedEventTests.java" />
-        <option value="$PROJECT_DIR$/test/tehniques/e/TestingExceptions/ErrorLoggerTests.java" />
-        <option value="$PROJECT_DIR$/test/tehniques/g/TestingPrivateMethods/README" />
-        <option value="$PROJECT_DIR$/src/i/Intro/f) Test pyramid" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" />
-        <option value="$PROJECT_DIR$/src/iii/Mocking/a.Intro" />
-        <option value="$PROJECT_DIR$/src/iii/TestableCode/2. How to write hard to test code" />
-        <option value="$PROJECT_DIR$/src/iii/TestableCode/1. What makes code hard to test" />
-        <option value="$PROJECT_DIR$/src/iii/TestableCode/2. Testing a car" />
-        <option value="$PROJECT_DIR$/src/iii/TestableCode/d. Separate intialization from logic" />
-        <option value="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" />
         <option value="$PROJECT_DIR$/src/iv/TestDoubles/Mocks vs Stubs" />
         <option value="$PROJECT_DIR$/src/iv/TestDoubles/a.Intro" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" />
-        <option value="$PROJECT_DIR$/test/fileReader/FakeFileReader.java" />
         <option value="$PROJECT_DIR$/test/fileReader/VideoServiceTests.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" />
         <option value="$PROJECT_DIR$/src/i/Intro/c) 7 testing principles" />
         <option value="$PROJECT_DIR$/src/i/Intro/e) Types of tests" />
         <option value="$PROJECT_DIR$/test/reservation/ReservationTests.java" />
@@ -139,6 +139,28 @@
         <option value="$PROJECT_DIR$/test/tehniques/g/PrivateMethods/README" />
         <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/test/exercises/FizzBuzzTests.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" />
+        <option value="$PROJECT_DIR$/test/fileReader/FakeFileReader.java" />
+        <option value="$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test" />
+        <option value="$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car" />
+        <option value="$PROJECT_DIR$/src/iii/TestableCode/d. Separate intialization from logic" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" />
+        <option value="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java" />
+        <option value="$PROJECT_DIR$/test/fileReader/FileReaderTests.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/DemeritPointsCalculator.java" />
+        <option value="$PROJECT_DIR$/test/exercises/DemeritPointsCalculatorTests.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/Stack.java" />
+        <option value="$PROJECT_DIR$/test/exercises/StackTests.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/IWebClient.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" />
+        <option value="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOffline.java" />
+        <option value="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java" />
+        <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" />
+        <option value="$PROJECT_DIR$/test/exercises/InstallHelperTests.java" />
       </list>
     </option>
   </component>
@@ -150,7 +172,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="137" />
+    <option name="x" value="217" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -191,19 +213,13 @@
             <path>
               <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestDoubles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="fileReader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,59 +268,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTests.get_whenCalled_returnsExpectedString">
-    <configuration name="ErrorLoggerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tehniques.e.Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tehniques.e.Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="tehniques.e.Exceptions.ErrorLoggerTests" />
-      <option name="METHOD_NAME" value="log_invalidMessage_throwsIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:tehniques.e.Exceptions.ErrorLoggerTests]" />
-      </uniqueIds>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ErrorLoggerTests.log_invalidMessage_throwsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tehniques.e.Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tehniques.e.Exceptions" />
-      <option name="MAIN_CLASS_NAME" value="tehniques.e.Exceptions.ErrorLoggerTests" />
-      <option name="METHOD_NAME" value="log_invalidMessage_throwsIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ErrorLoggerTests.log_whenCalled_lastErrorProperyWasSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tehniques.d.VoidMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tehniques.d.VoidMethods" />
-      <option name="MAIN_CLASS_NAME" value="tehniques.d.VoidMethods.ErrorLoggerTests" />
-      <option name="METHOD_NAME" value="log_whenCalled_lastErrorProperyWasSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTests.get_numberMultipleOf3And5_ReturnsFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InstallHelperTests.install_webClientIsOffline_throwsException_Mock">
+    <configuration name="InstallHelperTests.install_webClientIsOffline_throwsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <extension name="coverage">
         <pattern>
@@ -313,14 +278,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.FizzBuzzTests" />
-      <option name="METHOD_NAME" value="get_numberMultipleOf3And5_ReturnsFizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="exercises.InstallHelperTests" />
+      <option name="METHOD_NAME" value="install_webClientIsOffline_throwsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTests.get_whenCalled_returnsExpectedString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstallHelperTests.install_webClientIsOffline_throwsException_Mock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <extension name="coverage">
         <pattern>
@@ -329,8 +294,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.FizzBuzzTests" />
-      <option name="METHOD_NAME" value="get_whenCalled_returnsExpectedString(int,java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="exercises.InstallHelperTests" />
+      <option name="METHOD_NAME" value="install_webClientIsOffline_throwsException_Mock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.StackTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTests.getCount_afterPushing_returnsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.StackTests" />
+      <option name="METHOD_NAME" value="getCount_afterPushing_returnsOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTests.getCount_emptyStack_returnsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.StackTests" />
+      <option name="METHOD_NAME" value="getCount_emptyStack_returnsZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTests.get_whenCalled_returnsExpectedString" />
-        <item itemvalue="JUnit.FizzBuzzTests.get_numberMultipleOf3And5_ReturnsFizzBuzz" />
-        <item itemvalue="JUnit.ErrorLoggerTests" />
-        <item itemvalue="JUnit.ErrorLoggerTests.log_invalidMessage_throwsIllegalArgumentException" />
-        <item itemvalue="JUnit.ErrorLoggerTests.log_whenCalled_lastErrorProperyWasSet" />
+        <item itemvalue="JUnit.InstallHelperTests.install_webClientIsOffline_throwsException_Mock" />
+        <item itemvalue="JUnit.InstallHelperTests.install_webClientIsOffline_throwsException" />
+        <item itemvalue="JUnit.StackTests" />
+        <item itemvalue="JUnit.StackTests.getCount_afterPushing_returnsOne" />
+        <item itemvalue="JUnit.StackTests.getCount_emptyStack_returnsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -364,304 +376,117 @@
       <option name="project" value="LOCAL" />
       <updated>1557640743822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="exercise FizzBuzz">
+      <created>1557655171876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655171876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerStoreTests_getCustomer_idIsZero_returnsNotFound - 2019.05.12 at 11h 46m 27s.xml">
-      <configuration name="CustomerStoreTests.getCustomer_idIsZero_returnsNotFound" configurationId="JUnit" />
+    <history-entry file="DemeritPointsCalculatorTests_calculateDemeritPoints_speedLessThanSpeedLimit_returnsZero - 2019.05.12 at 14h 35m 16s.xml">
+      <configuration name="DemeritPointsCalculatorTests.calculateDemeritPoints_speedLessThanSpeedLimit_returnsZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerStoreTests_getCustomer_idIsZero_returnsNotFound - 2019.05.12 at 11h 46m 32s.xml">
-      <configuration name="CustomerStoreTests.getCustomer_idIsZero_returnsNotFound" configurationId="JUnit" />
+    <history-entry file="DemeritPointsCalculatorTests_calculateDemeritPoints_aboveSpeedLimit_returnsDemeritPoints_(1) - 2019.05.12 at 14h 37m 00s.xml">
+      <configuration name="DemeritPointsCalculatorTests.calculateDemeritPoints_aboveSpeedLimit_returnsDemeritPoints (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerStoreTests_getCustomer_idIsNotZero_returnsOk - 2019.05.12 at 11h 47m 16s.xml">
-      <configuration name="CustomerStoreTests.getCustomer_idIsNotZero_returnsOk" configurationId="JUnit" />
+    <history-entry file="DemeritPointsCalculatorTests_calculateDemeritPoints_aboveSpeedLimit_returnsDemeritPoints_(1) - 2019.05.12 at 14h 37m 10s.xml">
+      <configuration name="DemeritPointsCalculatorTests.calculateDemeritPoints_aboveSpeedLimit_returnsDemeritPoints (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerStoreTests_getCustomer_idIsNotZero_returnsOk - 2019.05.12 at 11h 47m 26s.xml">
-      <configuration name="CustomerStoreTests.getCustomer_idIsNotZero_returnsOk" configurationId="JUnit" />
+    <history-entry file="StackTests_getCount_emptyStack_returnsZero - 2019.05.12 at 14h 46m 05s.xml">
+      <configuration name="StackTests.getCount_emptyStack_returnsZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorLoggerTests_log_whenCalled_lastErrorProperyWasSet - 2019.05.12 at 11h 53m 15s.xml">
-      <configuration name="ErrorLoggerTests.log_whenCalled_lastErrorProperyWasSet" configurationId="JUnit" />
+    <history-entry file="StackTests_getCount_afterPushing_returnsOne - 2019.05.12 at 14h 48m 28s.xml">
+      <configuration name="StackTests.getCount_afterPushing_returnsOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorLoggerTests_log_invalidMessage_throwsIllegalArgumentException - 2019.05.12 at 11h 56m 01s.xml">
-      <configuration name="ErrorLoggerTests.log_invalidMessage_throwsIllegalArgumentException" configurationId="JUnit" />
+    <history-entry file="StackTests - 2019.05.12 at 14h 52m 38s.xml">
+      <configuration name="StackTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorLoggerTests_log_invalidMessage_throwsIllegalArgumentException - 2019.05.12 at 11h 56m 58s.xml">
-      <configuration name="ErrorLoggerTests.log_invalidMessage_throwsIllegalArgumentException" configurationId="JUnit" />
+    <history-entry file="StackTests - 2019.05.12 at 15h 16m 30s.xml">
+      <configuration name="StackTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorLoggerTests - 2019.05.12 at 11h 57m 13s.xml">
-      <configuration name="ErrorLoggerTests" configurationId="JUnit" />
+    <history-entry file="InstallHelperTests_install_webClientIsOffline_throwsException - 2019.05.12 at 15h 42m 36s.xml">
+      <configuration name="InstallHelperTests.install_webClientIsOffline_throwsException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTests_get_numberMultipleOf3And5_ReturnsFizzBuzz - 2019.05.12 at 12h 13m 36s.xml">
-      <configuration name="FizzBuzzTests.get_numberMultipleOf3And5_ReturnsFizzBuzz" configurationId="JUnit" />
+    <history-entry file="InstallHelperTests_install_webClientIsOffline_throwsException - 2019.05.12 at 15h 43m 18s.xml">
+      <configuration name="InstallHelperTests.install_webClientIsOffline_throwsException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTests_get_whenCalled_returnsExpectedString - 2019.05.12 at 12h 29m 05s.xml">
-      <configuration name="FizzBuzzTests.get_whenCalled_returnsExpectedString" configurationId="JUnit" />
+    <history-entry file="InstallHelperTests_install_webClientIsOffline_throwsException_Mock - 2019.05.12 at 15h 51m 47s.xml">
+      <configuration name="InstallHelperTests.install_webClientIsOffline_throwsException_Mock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-2" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19592056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12059765" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2230523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.24052005" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32870865" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32957596" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19592056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2230523" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.24052005" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32957596" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="exercise FizzBuzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise FizzBuzz" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestDrivenDevelopment$All_in_TestDrivenDevelopment.ic" NAME="All in TestDrivenDevelopment Coverage Results" MODIFIED="1557491935164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TestDrivenDevelopment$FizzBuzzTests.ic" NAME="FizzBuzzTests Coverage Results" MODIFIED="1557655646397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercises.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestDrivenDevelopment$FileReaderTests_readVideoTitle_invalidFile_returnsError.ic" NAME="FileReaderTests.readVideoTitle_invalidFile_returnsError Coverage Results" MODIFIED="1557656551165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fileReader.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestDrivenDevelopment$All_in_TestDrivenDevelopment.ic" NAME="All in TestDrivenDevelopment Coverage Results" MODIFIED="1557655676904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/c/UnitTestingAClass/3. Friends.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/c/UnitTestingAClass/1. The dependency problem.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/e. How it should look like.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/d. Separate intialization from logic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/g. Cost of construction.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iv/TestDoubles/1. Mocks vs Stubs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fileReader/FakeFileReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/iv/TestDoubles/a.Intro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fileReader/VideoServiceTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/b) Why test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/c) 7 testing principles">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/e) Types of tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/f) Test pyramid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/a) components.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/reservation/ReservationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/a) Characteristics of good unit tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="36" column="71" lean-forward="true" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/b) What to test (and what not to test)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i/Intro/d) Costs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/c) Naming and organizing tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Intro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/e. Setup and teardown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/g. Writing Trustworthy Tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/h) Developers who don't write tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/math/MathTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#MathTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/f. Parameterized tests">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,21 +497,6 @@
           <folding>
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,21 +624,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/exercises/FizzBuzzTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="527">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="69" column="42" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/d. Dependency Injection">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/d/WritingSomeSimpleUnitTests/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/c/UnitTestingAClass/2. Adding a seam.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/c/UnitTestingAClass/3. Friends.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/d. Separate intialization from logic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/e. How it should look like.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/g. Cost of construction.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iii/TestableCode/c/UnitTestingAClass/1. The dependency problem.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fileReader/FakeEmptyDataFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iv/TestDoubles/a.Intro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iv/TestDoubles/1. Mocks vs Stubs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/DemeritPointsCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/DemeritPointsCalculatorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/StackTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCount_emptyStack_returnsZero#0;class#StackTests#0" />
+            <element signature="method#getCount_afterPushing_returnsOne#0;class#StackTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/IWebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fileReader/FileReaderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOffline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/InstallHelperTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
           </folding>
         </state>
       </provider>
