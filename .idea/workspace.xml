@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62afa830-d503-403b-b642-394ed9d949c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/IWebClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/exercises/DemeritPointsCalculatorTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOffline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/exercises/InstallHelperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/exercises/StackTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fileReader/FakeEmptyDataFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fileReader/FileReaderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/BookingApplication/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/SmtpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/a. Intro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/b. Loosely-coupled and Testable Code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/a. What makes code hard to test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/b. Testing a car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" beforeDir="false" afterPath="$PROJECT_DIR$/src/iii/TestableCode/f. Don't look for things" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/InstallHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/InstallHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/WebClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/d/Exercises/WebClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/IFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ii/UnitTesting/e/BreakingExternalDependencies/c/RefactoringTowardsLooselyCoupledDesign/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tehniques/f/Events/ErrorLogger_ErrorLoggedEventTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,57 +26,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.6371398">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/exercises/InstallHelperTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#506#507#0" expanded="true" />
-                    <element signature="e#556#557#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/WebClient.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="7" column="27" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="56">
-                  <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,14 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/iv/TestDoubles/Mocks vs Stubs" />
-        <option value="$PROJECT_DIR$/src/iv/TestDoubles/a.Intro" />
-        <option value="$PROJECT_DIR$/test/fileReader/VideoServiceTests.java" />
-        <option value="$PROJECT_DIR$/src/i/Intro/c) 7 testing principles" />
-        <option value="$PROJECT_DIR$/src/i/Intro/e) Types of tests" />
-        <option value="$PROJECT_DIR$/test/reservation/ReservationTests.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/a) Characteristics of good unit tests" />
         <option value="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/b) What to test (and what not to test)" />
         <option value="$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/c) Naming and organizing tests" />
         <option value="$PROJECT_DIR$/src/ii/UnitTesting/a.FirstUnitTest/Intro" />
@@ -161,6 +116,14 @@
         <option value="$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java" />
         <option value="$PROJECT_DIR$/src/ii/UnitTesting/d/Exercises/InstallHelper.java" />
         <option value="$PROJECT_DIR$/test/exercises/InstallHelperTests.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/Booking.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/BookingDatabase.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/BookingHelper.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingHelper.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeper.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/SmtpClient.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperDatabase.java" />
+        <option value="$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperHelper.java" />
       </list>
     </option>
   </component>
@@ -183,8 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +174,26 @@
             <path>
               <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingApplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HouseKeeperApplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestDrivenDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestDrivenDevelopment" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,6 +206,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557655171876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final">
+      <created>1557665749908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557665749908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,16 +409,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-2" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19592056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2230523" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23299888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991462" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +461,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="exercise FizzBuzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercise FizzBuzz" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestDrivenDevelopment$FizzBuzzTests.ic" NAME="FizzBuzzTests Coverage Results" MODIFIED="1557655646397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -483,65 +474,6 @@
     <SUITE FILE_PATH="coverage/TestDrivenDevelopment$All_in_TestDrivenDevelopment.ic" NAME="All in TestDrivenDevelopment Coverage Results" MODIFIED="1557655676904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/b/UnitTestingFundamentals/f. Parameterized tests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/HtmlFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tehniques/b/ArraysAndCollections/MathTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tehniques/a/Strings/HtmlFormatterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/ActionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/Ok.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/NotFound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ii/UnitTesting/c/CoreUnitTestingTechniques/CustomerStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -849,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOffline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -878,6 +803,69 @@
             <element signature="imports" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/FakeWebClientAlwaysOnline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/BookingApplication/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="method#leavesDuringBooking#0;class#BookingHelper#0" />
+            <element signature="method#arrivesDuringBooking#0;class#BookingHelper#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/SmtpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/BookingApplication/BookingDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v/Homework/HouseKeeperApplication/HouseKeeperHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
