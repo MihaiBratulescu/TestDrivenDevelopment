@@ -1,0 +1,17 @@
+What do you first read when checking out a 3rd
+party library?
+
+You look at the code examples!
+
+The unit test we write serve as the code examples
+of the system.
+
+Want to know how to create an object?
+Want to know how to call some API function?
+
+The tests are a low level design documents.
+They are also so formal that they execute and
+NEVER get out of date with the application!
+
+The costs of documenting software is high and
+mostly unreliable!

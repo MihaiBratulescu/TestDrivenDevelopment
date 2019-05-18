@@ -1,0 +1,65 @@
+WT*?! Tests must be written after the code!
+
+How can you write a test if you don't
+know what you're testing?!
+
+Why did I decide to learn Java?!
+
+-------------------------------------------------------
+
+Let me see if I got this...
+
+First you suggest we right tests before code,
+then you tell us we must STOP writing the tests
+as soon as they don't compile?!
+
+That would happen every 1-2 lines!!!
+
+If we must stop writing every single time there
+is an error how could we even complete a thought?!
+
+I know... it's just not the kind of thing you would do
+unless your instructor continuously tells you to do it.
+
+-------------------------------------------------------
+
+What is the logic of hopping between test code and
+production code?! It seems like we cannot write
+anything without constantly interrupting ourselves.
+
+Coding this way is obviously slow and tedious.
+
+Not really! Interrupting yourself is a good thing!
+
+If you follow these 3 laws you will be stuck in a
+cycle that is 30 seconds long.
+
+Disciplines are pre made decisions. We follow them
+in order to not have to think so hard!
+
+-------------------------------------------------------
+
+But we write more code! Doesn't that wastes time?!
+
+But you also debug less!
+
+-------------------------------------------------------
+
+But refactoring is rework! That must waste time, right?!
+
+But you also have cleaner code!
+
+-------------------------------------------------------
+
+Who tests the tests?
+
+The production code!
+
+-------------------------------------------------------
+
+But one single change of the production code can make
+multiple tests break! It's too expensive to maintain them!
+
+Only if you do them wrong! Always refactor your tests.
+
+-------------------------------------------------------

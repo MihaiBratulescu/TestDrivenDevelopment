@@ -1,0 +1,34 @@
+Remember why code rots?
+
+But what if you had a suite of tests that proved to a
+high degree that the system worked?
+
+What if you knew that those tests covered almost
+everything in the system?
+
+The tests would eliminate the fear!
+The tests would allow you to clean the code!
+
+-----------------------------------------------
+
+Nothing makes a system more flexible
+than a suite of tests!
+
+If you received a perfectly designed system
+but no tests you would be afraid to change and
+and improve it, so over time it will gradually
+degrade and break!
+
+What about the opposite?
+
+-----------------------------------------------------
+
+Can't we just test after?
+
+That would be boring... you already know the code works...
+
+Some parts are difficult to test! So you'll take shortcuts!
+
+Besides would you want to write a failing test?
+
+You would never trust those tests!

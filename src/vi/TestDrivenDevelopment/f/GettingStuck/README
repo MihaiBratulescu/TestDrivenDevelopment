@@ -1,0 +1,8 @@
+While doing TDD you will eventually experience getting stuck.
+
+Meaning that there is nothing incremental that you can do
+to pass the current failing test.
+
+Sometimes you even have to write the entire algorithm.
+
+This will make you quit TDD!

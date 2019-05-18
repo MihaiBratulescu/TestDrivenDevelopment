@@ -1,0 +1,21 @@
+When you write your tests first you are forced to design
+your production code to be accessible from your tests.
+
+Since you haven't written the production code yet tests
+have a high influence on the design of the production code.
+
+And that influence will make the production code testable.
+
+And another word for testable is decoupled!
+
+The only way to tests lines of code is to access them from
+the tests, but the only way to access them is to decouple
+the functions that contain them.
+
+Therefore the act of writing your tests first causes you
+to have a system that is far less coupled than it would have
+been otherwise.
+
+YOU GET A BETTER DESIGN JUST FOR WRITING YOUR TESTS FIRST!
+
+The difficult goal of decoupled code becomes trivial!

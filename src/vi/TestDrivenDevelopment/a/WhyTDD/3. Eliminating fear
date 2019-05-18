@@ -1,0 +1,38 @@
+What if we had a suite of tests that was so comprehensive that
+virtually no bug could escape it?
+
+What if that suite of tests could execute
+in a matter of minutes?
+
+And what if that suite of tests could never get
+out of date with the system?
+
+What effect would that suite of tests have
+on the fear of changing the code?
+
+What if we had a suite of tests that, if it passes, we ship it!
+
+----------------------------------------------------------------
+
+By maintaining a test suite that has very high coverage
+(and quick runtime) it would be REALLY hard for a defect
+to get through that kind of defense.
+
+But keeping defects under control is just one of the benefits
+of such a suite of tests!
+
+Another benefit is that we are not afraid to make changes to
+the code, we are not afraid to CLEAN IT!
+
+*DEMO MOVIE RENTAL*
+
+---------------------------------------------------------
+
+The tests save us a MASSIVE amount of time for day one!
+
+It let's us develop faster and safer,
+there are fewer defects, less debugging, etc.
+
+We can code faster and CODE BETTER!
+
+But how do we can (practically) create such a suite?

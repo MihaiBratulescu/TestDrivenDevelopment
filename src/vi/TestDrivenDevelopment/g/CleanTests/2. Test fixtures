@@ -1,0 +1,13 @@
+-transient: is created and destroyed around every test
+-persistent: survives from test to test
+-fresh: initialized every test
+-shared: allows state to accumulate between tests
+
+1. Transient fresh
+2. Persistent fresh
+3. Persistent shared
+
+They are not mutually exclusive.
+
+But setups can get very large!!!
+Use tests hierarchy!

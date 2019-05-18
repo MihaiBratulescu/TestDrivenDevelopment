@@ -1,0 +1,12 @@
+
+                    no TDD      with TDD
+
+Implementation      7d          14d
+Integration         7d          2d
+Testing             3d          2d
+Fix bugs            3d          1d
+Testing             3d          1d
+Fix bugs            2d          1d
+Testing             1d          1d
+
+Release             26d         22d

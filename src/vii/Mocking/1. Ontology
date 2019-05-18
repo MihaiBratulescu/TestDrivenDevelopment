@@ -1,0 +1,36 @@
+Test double <- Dummy <- Stub <- Spy <- Mock
+            <- Fake
+
+1. The dummy
+    - implements an interface
+    - all functions do nothing
+    - all functions returns values as close to nothing as possible
+    - used when you test an execution path that does NOT care about the interface
+
+2. Sub
+    - does not return 0 or null
+    - returns value(s) required by the test
+    - returns special fixed values
+    - used to drive the code through special execution paths
+    - reused by multiple tests
+
+3. Spy
+    - remembers the way it was called
+    - used to test external services (check if it was called correctly)
+    - tests interaction
+    - couples tests to the algorithm!
+
+4. True Mock
+    - it knows what should happen
+    - remembers in it's internal state what was supposed to happen
+    - instead of looking at recorded call the true mock can compute the expected result
+    - basically it's checking on what it spied
+    - give the useful advantage of having the recording and the computing in the same place
+
+5. Fake
+    - is a simulator
+    - contains real logic
+    - kind of looks like the real deal
+    - get's complicated super fast
+    - easy to loose control of them
+    - require their own tests

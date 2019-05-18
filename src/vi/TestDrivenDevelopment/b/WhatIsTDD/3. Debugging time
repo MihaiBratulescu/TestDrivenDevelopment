@@ -1,0 +1,41 @@
+Imagine a group of developers following these 3 laws.
+
+Pick one of them! It doesn't matter who and it doesn't matter when!
+
+Everything they were working on in the last ~5 minutes was working!
+
+What would your life be like if everything worked 2 minutes ago?
+
+How much debugging would you do?
+
+With so little time invested in creating the bug removing it
+would not be very hard. In fact it would be hard to spend a
+lot of time debugging something that worked 1 minute ago.
+
+----------------------------------------------------------------
+
+Are you good at the debugger?
+
+Do you know all the hotkeys?
+Do you know how to set a break point and then set a watch point
+and get to the break point 5 times and then get to the second
+break point 3 times and then set the watch point so that the variable
+get's to 55 so you can start debugging?
+
+Debugging is not a skill to be desired!
+
+You can't be that good at debugging without
+spending a lot of time doing it.
+
+You don't want to be spending your time debugging, you want to
+be spending your time writing code that works!
+
+PRODUCTIVITY is inversely proportionate to DEBUG TIME
+
+-------------------------------------------------------------------
+
+Do you mean we'll never have bugs?!
+
+No, you will still have horrible bugs that can take
+a day (or more) to debug but if you follow the
+3 laws that will happen far less often.

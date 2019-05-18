@@ -1,0 +1,36 @@
+Code rots! We've all seen it (or will see it)!
+
+Systems that star out with a good design and relatively
+clean code eventually degrade over time.
+
+As the design rots it becomes rigid, fragile and immobile.
+
+When you need to make a change you can't just change it in one place.
+Instead you have to touch the code in many places and each time you
+touch the code you risk braking it in still more places.
+
+Debugging gets complicated, estimates grow, tempers mount and fear dominates.
+
+Why do we allow this rot to persist? Why don't we fix it by cleaning the code?
+
+Because if we attempt to clean it we are liable to break it. We don't clean it
+because we are afraid!
+
+*LOOK AT YOUR UGLY CODE*
+
+Don't you think you should clean it? But do you dare change it?
+Understand that if you touch it you'll break it!
+And if you break it, you now own it!
+
+And so you back away from the code and leave it in the system
+to gradually rot and decay.
+
+-------------------------------------------------------------------
+
+Bad old code slows you down!
+
+Changes that should take days take weeks in stead.
+As our uncertainty in the code base grows so do our estimates
+and yet we still miss them.
+
+The project becomes unmaintainable!

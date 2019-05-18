@@ -1,0 +1,4 @@
+int* inputArray = NULL;
+int* sortedArray = sort(inputArray);
+CHECK(sortedArray != NULL);
+free(sortedArray);

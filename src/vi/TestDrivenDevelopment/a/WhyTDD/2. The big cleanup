@@ -1,0 +1,44 @@
+Sometimes the mess gets so bad that we decide on a dedicated effort to clean it.
+We might set aside as much as a day, a week or even a whole month to clean it.
+
+At first our manager(s) like the idea of a cleaning effort. After all they're
+desperate to see some kind of improvement in productivity and we've promised
+that if we clean the code we can go faster and our estimates will shrink.
+
+-------------------------------------------------------------------------------------
+
+But cleaning code is hard and filled with risk! When we clean a class we have
+no good way of knowing that it still works properly perhaps we've introduced
+subtle bugs or race conditions or data corruptions.
+
+The more we clean the more the risk grows. The ad'hock manual tests we've
+been running to ensure the system is working begin to fail
+for reasons we can't easily explain.
+
+So what do we do to find out what's wrong? We begin to debug!
+
+And the debugging time grows and as it grows it eats in the time we thought we had
+for cleaning the code.
+
+-------------------------------------------------------------------------------------
+
+Finally we run out of time!
+
+And although we've done a lot less cleaning than we wanted to
+and a lot more debugging than we've hopped we think the
+system is a little bit cleaner.
+
+So we deliver the new "clean" system to the QA (quality assurance) team.
+Then they run their manual and VERY EXPENSIVE suite of system and regression tests.
+
+They return with a HUGE load of defects that our ad'hock testing never could have found.
+These defects are SEVERE, they contain inexplicable behaviours, data corruptions and
+even crashes.
+
+The list of new defects is so long (and so confusing) we don't even know how to
+estimate how long it would take to repair it.
+
+IN THE END THE ONLY SANE ACTION IS TO REVERT!
+
+We can't clean code until we eliminate the fear of change!
+

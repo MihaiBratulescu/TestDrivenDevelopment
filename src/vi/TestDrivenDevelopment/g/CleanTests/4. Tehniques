@@ -1,0 +1,25 @@
+1. Fake it till' you make it
+    - return dummy values to pass the (first) test
+    - with each test we face it a little less
+    - required initial step to make the code more general
+
+2. Stair steps tests
+    - write a test to allow you to write the next test
+    - then delete the test!
+
+3. Assert first
+    - write the test backwards (starting with the assert)
+
+4. Triangulation
+    - way to create generalizations
+    - write 2 (or more) tests to create a more general solution
+    - use it to create inheritances
+
+*Savings vs Money Marker account demo*
+
+5. One-to-many
+    - how to implement an operation that works with a collection of objects?
+    - implemented without the collection first then make it work with the collection
+
+*stack demo*
+

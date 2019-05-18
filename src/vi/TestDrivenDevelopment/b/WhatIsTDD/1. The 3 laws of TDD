@@ -1,0 +1,26 @@
+TDD is a discipline and as a discipline it has a set of rules.
+
+Writing a hole bunch of tests whenever you feel like
+is not a discipline and does not make you a TDD developer.
+
+Examples of other disciplines:
+    - doctors washing hands
+    - gun trigger discipline
+    - behaviour at a martial arts dojo
+
+These disciplines may seem extreme and harsh (even exaggerated)
+but they are imposed (strictly) to ensure safety and effectiveness.
+
+---------------------------------------------------------
+
+The first 3 disciplines of TDD are knows as the 3 laws.
+
+Like any discipline, to the uninitiated these laws seem extreme
+and absurd just like hand washing seemed absurd to the doctors
+of the XIX century.
+
+1. Write NO production code except to pass a failing test.
+
+2. Write only ENOUGH of a test to demonstrate a failure.
+
+3. Write only ENOUGH production code to pass the test.
