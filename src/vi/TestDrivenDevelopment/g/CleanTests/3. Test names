@@ -1,8 +1,8 @@
 GIVEN an employee with pay type of hourly
-earning 10$/hour
-and with 40 hours of time-cards
+earning 10$/hour (standard hourly rate)
+and with 40 hours of time-cards (exact sub overtime)
 and pay disposition of paymaster
-and today is friday
+and today is friday (pay day)
 
 WHEN I run payroll
 
@@ -17,6 +17,7 @@ and today is payday
 
 WHEN I run payroll
 
-THEN the paymaster should have a check for hWorked*StdHourlyRate.
+THEN the paymaster should have a check
+for hWorked*StdHourlyRate.
 
 *CODE*

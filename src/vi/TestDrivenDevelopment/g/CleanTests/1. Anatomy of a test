@@ -1,4 +1,8 @@
+//arrange
 int* inputArray = NULL;
+//act
 int* sortedArray = sort(inputArray);
+/assert
 CHECK(sortedArray != NULL);
+//annihilate
 free(sortedArray);

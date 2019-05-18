@@ -1,56 +1,34 @@
 package hierarchies;
 
+import hierarchies.context.OldAccountBankContext;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+import vi.TestDrivenDevelopment.g.CleanTests.Account;
+import vi.TestDrivenDevelopment.g.CleanTests.Bank;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
-
-public class BankTests
+public class BankTests extends OldAccountBankContext
 {
-    private static final double MONEY_DELTA = .00001;
+    private Account newAccount;
 
-    private static void assertMoneyEquals(double expected, double actual)
+    @BeforeEach void setup()
     {
-        assertEquals(expected, actual, MONEY_DELTA);
+        Bank.setStandardRate(.035);
+        newAccount = new Account();
     }
 
-    public static class BankContext
+
+    @Test void standardRateChanges_newAccountUseNewStandardRate()
     {
-        @BeforeEach void setup()
-        {
-            System.out.println("BankContext setup");
-        }
+        assertEquals(Bank.getStandardRate(), newAccount.getIntrestRate());
     }
 
-    public static class NewAccountContext extends BankContext
+    @Test void newAccountWith100_returnsCorrectIntrest()
     {
-        @BeforeEach void setupNewAccount()
-        {
-            System.out.println("NewAccountContext setup");
-        }
+        newAccount.deposit(100);
 
-        @Test void given_when_then() {}
-    }
-
-    public static class OldAccountContext extends BankContext
-    {
-        @BeforeEach void setupOldAccount()
-        {
-            System.out.println("OldAccountContext setup");
-        }
-
-        @Test void given_when_then() {}
-    }
-
-    public static class AfterIntrestRateChangesContext extends OldAccountContext
-    {
-        @BeforeEach void setupChangeIntrestRate()
-        {
-            System.out.println("ChangeIntrestRate setup");
-        }
-
-        @Test void given_when_then2() {}
+        assertEquals(Bank.getStandardRate() * 100, newAccount.getIntrest());
     }
 }

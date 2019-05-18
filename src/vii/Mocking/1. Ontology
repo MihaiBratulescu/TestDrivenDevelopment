@@ -6,13 +6,16 @@ Test double <- Dummy <- Stub <- Spy <- Mock
     - all functions do nothing
     - all functions returns values as close to nothing as possible
     - used when you test an execution path that does NOT care about the interface
+    but calls the interface overall
 
-2. Sub
+2. Stub
     - does not return 0 or null
     - returns value(s) required by the test
     - returns special fixed values
     - used to drive the code through special execution paths
-    - reused by multiple tests
+    - reused by multiple tests (like a fixture context)
+    - used to navigate if/while/for statements
+    - ex: RevokingValidatorStub, UserNotFoundStub, AcceptingLoginStub
 
 3. Spy
     - remembers the way it was called
@@ -20,12 +23,30 @@ Test double <- Dummy <- Stub <- Spy <- Mock
     - tests interaction
     - couples tests to the algorithm!
 
+    public abstract class ExcelCell
+    {
+        public abstract void Write(int row,
+            int col, object value);
+    }
+
+    public class ExcellCellSpy extends ExcelCell
+    {
+        private List<String> calls = new List<string>();
+
+        public override void Write(int row, int col, object value)
+        {
+            calls.Add($"{row} {col} = {value}");
+            "1 2 = Aladin", "3 5 = Bau bau";
+        }
+    }
+
 4. True Mock
-    - it knows what should happen
+    - it knows what should happen (analyses what it spied and rapports)
     - remembers in it's internal state what was supposed to happen
     - instead of looking at recorded call the true mock can compute the expected result
     - basically it's checking on what it spied
-    - give the useful advantage of having the recording and the computing in the same place
+    - give the useful advantage of having the recording and
+    the computing in the same place
 
 5. Fake
     - is a simulator

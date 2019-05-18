@@ -4,6 +4,11 @@ import org.junit.jupiter.api.*;
 
 public class PersistentShared
 {
+    public  PersistentShared()
+    {
+        System.out.println("constructor");
+    }
+
     @BeforeAll static void suiteSetup()
     {
         System.out.println("suiteSetup");
@@ -15,8 +20,7 @@ public class PersistentShared
         System.out.println("setup");
     }
 
-    @Test
-    void test1()
+    @Test void test1()
     {
         System.out.println("test1");
     }

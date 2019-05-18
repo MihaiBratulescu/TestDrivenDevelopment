@@ -23,6 +23,7 @@ public class FileReaderTests
         var result = service.readVideoTitle(reader);
 
         assertThat(result).containsIgnoringCase("error");
+        verify(reader).readFile("abc");
     }
 
     @Test

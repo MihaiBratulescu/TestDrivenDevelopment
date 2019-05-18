@@ -4,8 +4,15 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.security.PublicKey;
+
 public class PersistentFresh
 {
+    public PersistentFresh()
+    {
+        System.out.println("constructor");
+    }
+
     @BeforeEach void setup()
     {
         System.out.println("setup");
